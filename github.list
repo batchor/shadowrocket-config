@@ -1,0 +1,29 @@
+# NAME: GitHub
+# AUTHOR: Batchor
+# REPO: https://github.com/batchor/shadowrocket-config
+# UPDATED: 1989-06-04 11:59:00
+# DOMAIN: 2
+# DOMAIN-SUFFIX: 12
+# IP-CIDR: 4
+# IP-CIDR6: 2
+# TOTAL: 20
+DOMAIN,github.global.ssl.fastly.net
+DOMAIN,github.map.fastly.net
+DOMAIN-SUFFIX,github.com
+DOMAIN-SUFFIX,github.io
+DOMAIN-SUFFIX,github.dev
+DOMAIN-SUFFIX,github.blog
+DOMAIN-SUFFIX,githubusercontent.com
+DOMAIN-SUFFIX,githubassets.com
+DOMAIN-SUFFIX,githubapp.com
+DOMAIN-SUFFIX,githubcopilot.com
+DOMAIN-SUFFIX,githubstatus.com
+DOMAIN-SUFFIX,githubnext.com
+DOMAIN-SUFFIX,ghcr.io
+DOMAIN-SUFFIX,git.io
+IP-CIDR,192.30.252.0/22,no-resolve
+IP-CIDR,185.199.108.0/22,no-resolve
+IP-CIDR,140.82.112.0/20,no-resolve
+IP-CIDR,143.55.64.0/20,no-resolve
+IP-CIDR6,2a0a:a440::/29,no-resolve
+IP-CIDR6,2606:50c0::/32,no-resolve
