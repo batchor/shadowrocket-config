@@ -1,11 +1,11 @@
 # NAME: Wiki Banned In China
 # AUTHOR: Batchor
 # REPO: https://github.com/batchor/shadowrocket-config
-# UPDATED: 1989-06-04 11:59:00
+# UPDATED: 2026-09-02
 # SOURCE: https://en.wikipedia.org/wiki/List_of_websites_blocked_in_mainland_China
 # DOMAIN: 3
-# DOMAIN-SUFFIX: 135
-# TOTAL: 138
+# DOMAIN-SUFFIX: 137
+# TOTAL: 140
 
 # ==========================================================
 # 一、维基词条中标记为 Blocked / Partially blocked 的域名
@@ -200,3 +200,11 @@ DOMAIN-SUFFIX,hf.co
 # 五、原文中的 GitHub / Gist（github.com、gist.github.com）
 #     已由本仓库的 github.list 覆盖，此处不再重复
 # ==========================================================
+
+# ==========================================================
+# 六、补充：原文未收录，但在中国大陆访问受限的域名
+# ==========================================================
+
+# --- 开发 / 镜像仓库 ---
+DOMAIN-SUFFIX,docker.io
+DOMAIN-SUFFIX,docker.com
