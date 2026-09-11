@@ -1,11 +1,11 @@
 # NAME: Wiki Banned In China
 # AUTHOR: Batchor
 # REPO: https://github.com/batchor/shadowrocket-config
-# UPDATED: 2026-09-02
+# UPDATED: 2026-09-11
 # SOURCE: https://en.wikipedia.org/wiki/List_of_websites_blocked_in_mainland_China
 # DOMAIN: 3
-# DOMAIN-SUFFIX: 137
-# TOTAL: 140
+# DOMAIN-SUFFIX: 157
+# TOTAL: 160
 
 # ==========================================================
 # 一、维基词条中标记为 Blocked / Partially blocked 的域名
@@ -179,8 +179,6 @@ DOMAIN-SUFFIX,hf.co
 # 三、原文标记为 Unblocked，但服务自身有地区限制（在中国大陆仍需代理才能正常使用）
 #     如需启用，去掉行首的 # 即可
 # ==========================================================
-# DOMAIN-SUFFIX,netflix.com
-# DOMAIN-SUFFIX,nflxvideo.net
 # DOMAIN-SUFFIX,spotify.com
 # DOMAIN-SUFFIX,scdn.co
 # DOMAIN-SUFFIX,yahoo.com
@@ -208,3 +206,25 @@ DOMAIN-SUFFIX,hf.co
 # --- 开发 / 镜像仓库 ---
 DOMAIN-SUFFIX,docker.io
 DOMAIN-SUFFIX,docker.com
+
+# --- 视频 / 流媒体：Netflix（服务自身在中国大陆不可用，且有地区限制）---
+DOMAIN-SUFFIX,netflix.com
+DOMAIN-SUFFIX,netflix.net
+DOMAIN-SUFFIX,nflxvideo.net
+DOMAIN-SUFFIX,nflximg.net
+DOMAIN-SUFFIX,nflximg.com
+DOMAIN-SUFFIX,nflxext.com
+DOMAIN-SUFFIX,nflxso.net
+DOMAIN-SUFFIX,nflxsearch.net
+DOMAIN-SUFFIX,fast.com
+DOMAIN-SUFFIX,netflixdnstest0.com
+DOMAIN-SUFFIX,netflixdnstest1.com
+DOMAIN-SUFFIX,netflixdnstest2.com
+DOMAIN-SUFFIX,netflixdnstest3.com
+DOMAIN-SUFFIX,netflixdnstest4.com
+DOMAIN-SUFFIX,netflixdnstest5.com
+DOMAIN-SUFFIX,netflixdnstest6.com
+DOMAIN-SUFFIX,netflixdnstest7.com
+DOMAIN-SUFFIX,netflixdnstest8.com
+DOMAIN-SUFFIX,netflixdnstest9.com
+DOMAIN-SUFFIX,netflixdnstest10.com
